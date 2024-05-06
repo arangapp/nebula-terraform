@@ -5,6 +5,7 @@ provider "aws" {
 
 module "ec2" {
     source = "./ec2"
+    ec2name = "Name from module"
     
 }
 

@@ -22,3 +22,8 @@ resource "aws_vpc" "myvpc" {
     value = aws_vpc.myvpc.id
     
   }
+
+
+  #tupples
+
+  

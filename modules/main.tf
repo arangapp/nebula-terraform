@@ -10,6 +10,6 @@ module "ec2" {
 }
 
 output "module_output" {
-    value = module.ec2module.instance_id       
+    value = module.ec2name.instance_id       
   
 }
